@@ -1,16 +1,16 @@
-## Hi there 👋
+Hi, I'm Majd Hussein 👋
 
-<!--
-**Majoodeh/Majoodeh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Logic-Driven Front-End Developer | MSc Chemical Engineer previously
+I am a Front-End Developer with a background in complex systems engineering, transitioning into tech with a focus on building high-performance, user-centric web applications. 
 
-Here are some ideas to get you started:
+-  **Focus:** Building robust UI architectures with **React** and **TypeScript**.
+-  **Education:** Full-Stack Specialization at **HackYourFuture** & Master's in **Chemical Engineering**.
+-  **Superpower:** High analytical skills and a natural aptitude for troubleshooting complex logical systems.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠 Tech Stack
+- **Frontend:** React, TypeScript, JavaScript (ES6+), HTML5, CSS3.
+- **Backend:** Node.js, Express.js, PostgreSQL, MongoDB.
+- **Tools:** Git, GitHub, NPM, Agile/Scrum.
+
+---
+📫 [LinkedIn](https://www.linkedin.com/in/majdh314) | 📧 [Email](mailto:majd3.14h@gmail.com)
