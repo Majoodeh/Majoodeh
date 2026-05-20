@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 340">
+  <style>
+    @keyframes orbit1 { from{transform:rotate(0deg) translateX(90px) rotate(0deg)} to{transform:rotate(360deg) translateX(90px) rotate(-360deg)} }
+    @keyframes orbit2 { from{transform:rotate(120deg) translateX(90px) rotate(-120deg)} to{transform:rotate(480deg) translateX(90px) rotate(-480deg)} }
+    @keyframes orbit3 { from{transform:rotate(240deg) translateX(90px) rotate(-240deg)} to{transform:rotate(600deg) translateX(90px) rotate(-600deg)} }
+    @keyframes orbit4 { from{transform:rotate(60deg) translateX(130px) rotate(-60deg)} to{transform:rotate(420deg) translateX(130px) rotate(-420deg)} }
+    @keyframes orbit5 { from{transform:rotate(180deg) translateX(130px) rotate(-180deg)} to{transform:rotate(540deg) translateX(130px) rotate(-540deg)} }
+    @keyframes orbit6 { from{transform:rotate(300deg) translateX(130px) rotate(-300deg)} to{transform:rotate(660deg) translateX(130px) rotate(-660deg)} }
+    @keyframes pulsering { 0%,100%{opacity:.15;transform:scale(1)} 50%{opacity:.35;transform:scale(1.04)} }
+    @keyframes cursor-blink { 0%,100%{opacity:1} 50%{opacity:0} }
+    .orbit-item { animation-timing-function: linear; animation-iteration-count: infinite; }
+    .o1 { animation: orbit1 8s linear infinite; }
+    .o2 { animation: orbit2 8s linear infinite; }
+    .o3 { animation: orbit3 8s linear infinite; }
+    .o4 { animation: orbit4 13s linear infinite; }
+    .o5 { animation: orbit5 13s linear infinite; }
+    .o6 { animation: orbit6 13s linear infinite; }
+    .pulse-ring { animation: pulsering 3s ease-in-out infinite; transform-origin: 340px 155px; }
+    .terminal-cursor { animation: cursor-blink 1s step-end infinite; }
+  </style>
+  <rect x="10" y="10" width="660" height="320" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <circle class="pulse-ring" cx="340" cy="155" r="90" fill="none" stroke="#7f77dd" stroke-width="0.8" stroke-dasharray="4 6"/>
+  <circle class="pulse-ring" cx="340" cy="155" r="130" fill="none" stroke="#5dcaa5" stroke-width="0.6" stroke-dasharray="3 8" style="animation-delay:-1.5s"/>
+  <rect x="270" y="100" width="140" height="110" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect x="270" y="100" width="140" height="22" rx="10" fill="#161b22"/>
+  <rect x="270" y="110" width="140" height="12" fill="#161b22"/>
+  <circle cx="286" cy="111" r="4" fill="#ff5f57"/>
+  <circle cx="300" cy="111" r="4" fill="#febc2e"/>
+  <circle cx="314" cy="111" r="4" fill="#28c840"/>
+  <text x="283" y="140" font-family="monospace" font-size="9" fill="#58a6ff">$ Majd</text>
+  <text x="283" y="154" font-family="monospace" font-size="9" fill="#3fb950">Full Stack Dev</text>
+  <text x="283" y="168" font-family="monospace" font-size="9" fill="#58a6ff">$ skills --list</text>
+  <text x="283" y="182" font-family="monospace" font-size="9" fill="#e6edf3">React · Node · TS</text>
+  <text x="283" y="196" font-family="monospace" font-size="9" fill="#58a6ff">$ <tspan class="terminal-cursor" fill="#58a6ff">█</tspan></text>
+  <g style="transform-origin:340px 155px" class="orbit-item o1">
+    <circle cx="340" cy="155" r="16" fill="#1c3553" stroke="#378add" stroke-width="1"/>
+    <text x="340" y="160" text-anchor="middle" font-size="14" fill="#fff">⚛</text>
+  </g>
+  <g style="transform-origin:340px 155px" class="orbit-item o2">
+    <circle cx="340" cy="155" r="16" fill="#1a3a2a" stroke="#1d9e75" stroke-width="1"/>
+    <text x="340" y="160" text-anchor="middle" font-size="13" fill="#fff">⬡</text>
+  </g>
+  <g style="transform-origin:340px 155px" class="orbit-item o3">
+    <circle cx="340" cy="155" r="16" fill="#2e1f4a" stroke="#7f77dd" stroke-width="1"/>
+    <text x="340" y="160" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="11" fill="#fff">TS</text>
+  </g>
+  <g style="transform-origin:340px 155px" class="orbit-item o4">
+    <circle cx="340" cy="155" r="15" fill="#1a2d1a" stroke="#28c840" stroke-width="1"/>
+    <text x="340" y="160" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="11" fill="#fff">JS</text>
+  </g>
+  <g style="transform-origin:340px 155px" class="orbit-item o5">
+    <circle cx="340" cy="155" r="15" fill="#2a1f10" stroke="#febc2e" stroke-width="1"/>
+    <text x="340" y="160" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="10" fill="#fff">DB</text>
+  </g>
+  <g style="transform-origin:340px 155px" class="orbit-item o6">
+    <circle cx="340" cy="155" r="15" fill="#1c1f26" stroke="#8b949e" stroke-width="1"/>
+    <text x="340" y="159" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fff">Git</text>
+  </g>
+</svg>
